@@ -1,0 +1,136 @@
+body {
+    font-family: 'Open Sans', Verdana, sans-serif;
+    background-color: #EBEBEB;
+    line-height: 20px;
+    color: grey;
+}
+
+.intro {
+    width: 40%;
+    background-color: white;
+    font-family: inherit;
+    text-align: center;
+    align-items: center;
+    font-size: 70%;
+    border-radius: 8px;
+    margin: 35px auto 35px auto;
+    padding: 35px;
+    box-shadow: 0 0 5px #7d7d7d4b
+}
+
+.Tim {
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #EBEBEB
+}
+
+h1 {
+    color: #f05454;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.inventor {
+    font-size: 31px;
+    font-weight: normal;
+}
+
+.who-is {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.button{
+    background-color: #f05454;;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.link {
+    width: 40%;
+    background-color: white;
+    text-align: center;
+    font-size: 70%;
+    border-radius: 8px;
+    margin: 35px auto 35px auto;
+    padding: 35px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 20px 20px 20px 20px;
+    display: inline-block;
+}
+
+.link a {
+    text-decoration: none;
+    color: grey;
+}
+
+li{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: grey;
+}
+
+.fab {
+    font-size: 25px;
+}
+
+.films {
+    width:40%;
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+    margin: 35px auto 35px auto;
+    padding: 35px;
+    box-shadow: 0 0 5px #7d7d7d4b
+}
+
+mark{
+    background-color: lightgray;
+    color: inherit;
+}
+
+.movies{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 { 
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 { 
+    grid-area: 1 / 2 / 2 / 3;
+} 
+
+.div3 { 
+    grid-area: 2 / 1 / 3 / 2; 
+} 
+
+.div4 { 
+    grid-area: 2 / 2 / 3 / 3; 
+} 
+
+.div5 { 
+    grid-area: 3 / 1 / 4 / 2; 
+} 
+
+.div6 { 
+    grid-area: 3 / 2 / 4 / 3;
+} 
+
+.text{
+    text-align: justify;
+}
