@@ -11,9 +11,9 @@ HTML5
 CSS3
 
 ## Project links.
-https://github.com/AscelineHogge/website-berners-lee
-
-https://ascelinehogge.github.io/website-berners-lee/
+Web Github: https://github.com/AscelineHogge/website-berners-lee
+Web link: https://ascelinehogge.github.io/website-berners-lee/
 
 ## Template.
-! [Template] (https://raw.githubusercontent.com/becodeorg/LIE-Jepsen-4.27/master/01-the-field/04-html-css/01-fundamentals/images/goal-css.png?token=ASFA57ZXPMUAZZE4L2GVFHLABADWI)
+! [Template] (images/goal-css.png)
+
