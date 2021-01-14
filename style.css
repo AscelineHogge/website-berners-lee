@@ -45,9 +45,9 @@ h1 {
     background-color: #f05454;;
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 12px 9px;
     border-radius: 8px;
-    font-size: 25px;
+    font-size: 19px;
     font-weight: bold;
     cursor: pointer;
 }
@@ -87,11 +87,17 @@ li{
 .films {
     width:40%;
     background-color: white;
-    text-align: center;
+    text-align: justify;
     border-radius: 8px;
     margin: 35px auto 35px auto;
     padding: 35px;
-    box-shadow: 0 0 5px #7d7d7d4b
+    box-shadow: 0 0 5px #7d7d7d4b;
+    font-family: inherit;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }
 
 mark{
@@ -101,10 +107,10 @@ mark{
 
 .movies{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-row-gap: 20px;
 }
 
 .div1 { 
@@ -112,23 +118,23 @@ mark{
 }
 
 .div2 { 
-    grid-area: 1 / 2 / 2 / 3;
+    grid-area: 1 / 2 / 2 / 4;
 } 
 
 .div3 { 
-    grid-area: 2 / 1 / 3 / 2; 
+    grid-area: 2 / 1 / 3 / 2;
 } 
 
 .div4 { 
-    grid-area: 2 / 2 / 3 / 3; 
+    grid-area: 2 / 2 / 3 / 4;
 } 
 
 .div5 { 
-    grid-area: 3 / 1 / 4 / 2; 
+    grid-area: 3 / 1 / 4 / 2;
 } 
 
 .div6 { 
-    grid-area: 3 / 2 / 4 / 3;
+    grid-area: 3 / 2 / 4 / 4;
 } 
 
 .text{
