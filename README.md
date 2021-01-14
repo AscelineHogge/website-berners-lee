@@ -15,5 +15,5 @@ Web Github: https://github.com/AscelineHogge/website-berners-lee
 Web link: https://ascelinehogge.github.io/website-berners-lee/
 
 ## Template.
-! [Template] (images/goal-css.png)
+![Template](images/goal-css.png)
 
